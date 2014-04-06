@@ -1,0 +1,1 @@
+var dp=jQuery;dp.noConflict(),dp(document).ready(function(){dp('a[href^="#"]').bind("click.smoothscroll",function(a){a.preventDefault(),dp("html,body").animate({scrollTop:dp(this.hash).offset().top},1200)}),dp(".parallaxize").parallax("50%",.3)}),dp(window).load(function(){dp("#lazyload").fadeOut()});
