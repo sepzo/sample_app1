@@ -62,5 +62,7 @@ module Swissduck
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
     config.assets.initialize_on_precompile = false
+
+    config.assets.precompile = %w( *.js *.css )
   end
 end
